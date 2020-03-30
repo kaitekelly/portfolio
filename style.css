@@ -1,0 +1,23 @@
+* {
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: slategrey;
+}
+
+.nav {
+    background-color: white;
+    height: 75px;
+
+}
+
+.name {
+    background-color: darkcyan;
+    float: left;
+    width: 200px;
+    height: 75px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 40px;
+}
