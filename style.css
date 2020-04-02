@@ -1,23 +1,37 @@
-* {
-    background-color: aliceblue;
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: slategrey;
 }
 
-.nav {
+/* .nav {
     background-color: white;
     height: 75px;
+    width: 100%; */
+    /* float: right;   */
 
-}
+/* } */
 
 .name {
     background-color: darkcyan;
-    float: left;
-    width: 200px;
+    /* float: left; */
+    width: 150px;
     height: 75px;
     color: white;
     font-size: 26px;
     text-align: center;
     padding: 20px;
-    margin-left: 40px;
+
+}
+
+.cardholder {
+    background-color: white;
+
+}
+
+#about-me {
+    width: 600px;
+    background-color: white;
+    border-bottom: grey solid 2px;
+    margin-top: 40px;
+    float: left;
+
 }
