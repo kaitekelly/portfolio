@@ -35,3 +35,33 @@ body {
     float: left;
 
 }
+
+#about-box {
+    width: 600px;
+    background-color: white;
+    float: left;
+    margin-top: 25px;
+
+}
+
+img {
+    float: left;
+}
+
+h4 {
+    float: left;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightseagreen;
+    color: grey;
+    height: 50px;
+    text-align: center;
+    
+}
