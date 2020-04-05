@@ -47,12 +47,12 @@ body {
 
 #about-pic {
     margin: 20px;
+    width: 300px;
+    height: 300px;
 }
 
 img {
     float: left;
-    width: 300px;
-    height: 300px;
 }
 
 h4 {
