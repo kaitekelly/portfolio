@@ -22,10 +22,6 @@ padding-left: 10px;
 
 }
 
-a {
-    color: #E63462;
-}
-
 .nav-item {
     background-color: #333745;
     color: #E63462;  
@@ -58,6 +54,14 @@ a {
     font-size: 14pt;
 }
 
+.carousel-caption { 
+    bottom:-70px;
+    color: #E63462;
+ }
+
+ .carousel-item { 
+     padding-bottom: 70px; 
+    }
 
 /* .form-margin {
     margin-top: 20px;
