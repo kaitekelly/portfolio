@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./assets/style.css">
 
     <!--Website's Title-->
     <title>Kaite Kelly's Portfolio</title>
@@ -25,14 +25,14 @@
 <body>
     <header>
         <!--First Row Nav Bar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Kaite Kelly</a>
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <a class="navbar-brand" id="navbar" href="#">Kaite Kelly - Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav ml-auto">
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="navbar-nav ml-auto" id="navbar-menu">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -49,36 +49,58 @@
 
     <!--This is where the content grid starts-->
     <div class="container">
-        <!--About Me Section Begins -->
-        <div class="row">
-            <div class="col-lg-8">
-                <h2> About Me</h2>
+        <!--start media box-->
+        <div class="media" id="bio-box">
+            <img src="assets/images/IMG_0414_a.jpeg" class="align-self-center mr-3" alt="picture of Kaite" width="400px"
+                height=auto>
+            <div class="media-body">
+                <h5 class="mt-0" id="about-me-text">About me...</h5>
+                <p id="bio-text">I am currently enrolled in the University of Washington's coding bootcamp program and hope
+                    to find a job as a developer after completion of the course.</p>
+                <p class="mb-0" id="bio-text">Prior to this, I worked in various roles in the fashion industry including,
+                    Digital
+                    Media Manager at Nautica, and on the apparel design teams as creative coordinator to the
+                    Creative Directors of Nautica and Tommy Hilfiger.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="border">
-                <div class="col-lg-8" id="about-box">
-                    <img src="images/IMG_9183.jpeg" id="about-pic" class="img-fluid" alt="picture of Kaite">
-                    <h4> My name is Kaite Kelly and I am currently a Proposal Assistant & Librarian at Election
-                        Systems
-                        and Software, an election hardware and software company based out of Omaha, NE. In this
-                        role, I
-                        am responsible for reading and cataloguing technical responses by subject in the proposal's
-                        database. Prior to this, I worked in various roles in the fashion industry including,
-                        Digital
-                        Media Manager at Nautica, and on the apparel design teams as creative coordinator to the
-                        Creative Directors of Nautica and Tommy Hilfiger.
-                        <br>
-                        <br>
-                        I am currently enrolled in the University of Washington's coding bootcamp program and hope
-                        to
-                        find a job as a developer after completion of the course. In between working in the election
-                        and
-                        fashion industries, I took some time off from my career to care for my twins, who are now 6
-                        years old. When I can find the time, I enjoy knitting, drawing, true crime stories,
-                        music and
-                        anything funny. </h4>
+
+        <div class="row" id="carousel-container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/images/weather-dashboard.png"
+                            alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>...</h5>
+                            <p>...</p>
+                            <a href="https://kaitekelly.github.io/WeatherDashboard/">Weather Dashboard</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/find-next-gig.png"
+                            alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>...</h5>
+                            <p>...</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/password generator.png"
+                            alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>...</h5>
+                            <p>...</p>
+                        </div>
+                    </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
     </div>
