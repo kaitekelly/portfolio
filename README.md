@@ -10,6 +10,8 @@ kaitekelly 👩🏻‍💻
 <!-- # Title:
 Developer Portfolio -->
 # Link to Repo:
+https://kaitekelly.github.io/portfolio/
+# Link to Repo:
 https://github.com/kaitekelly/portfolio
 
 # Description:
