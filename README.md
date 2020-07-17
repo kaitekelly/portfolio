@@ -21,6 +21,9 @@ https://github.com/kaitekelly/portfolio
 Contributor, Kait Kelly. View github profile through badge above. 
 Technology used: Bootstrap, HTML, Javascript, CSS
 
+# Screenshot of Portfolio:
+<img width="1587" alt="Screen Shot 2020-07-16 at 11 34 49 PM" src="https://user-images.githubusercontent.com/61023907/87756027-02ec2c00-c7bd-11ea-8dec-d309361fe0f4.png">
+
 # Tests: 
 ⚙️ No tests have been performed on this application. 
 
@@ -38,6 +41,8 @@ n/a -->
 <!-- This simple application let's users add burgers they would like to eat some time in this lifetime to a craving list. Once the burger has been devoured, the user can click move burger to devoured list. If the user no longer wishes to eat that burger, the user can delete the burger from the database.  -->
 
 
-<!-- # Screenshot of application in use: -->
+# Screenshot of application in use:
+<img width="1587" alt="Screen Shot 2020-07-16 at 11 34 49 PM" src="https://user-images.githubusercontent.com/61023907/87756027-02ec2c00-c7bd-11ea-8dec-d309361fe0f4.png">
+
 
 
