@@ -107,6 +107,10 @@ h6 {
     padding-top: 7px;
 }
 
+/* .card {
+    height: h-100;
+} */
+
 @media screen and (max-width: 480px) {
     #bio-box  { display: block; }
 }
